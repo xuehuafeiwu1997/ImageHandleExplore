@@ -1,22 +1,31 @@
 PODS:
+  - FLAnimatedImage (1.0.12)
   - Masonry (1.1.0)
   - SDWebImage (5.9.4):
     - SDWebImage/Core (= 5.9.4)
   - SDWebImage/Core (5.9.4)
+  - SDWebImageFLPlugin (0.4.0):
+    - FLAnimatedImage (>= 1.0.11)
+    - SDWebImage/Core (~> 5.6)
 
 DEPENDENCIES:
   - Masonry (~> 1.1.0)
   - SDWebImage
+  - SDWebImageFLPlugin
 
 SPEC REPOS:
   trunk:
+    - FLAnimatedImage
     - Masonry
     - SDWebImage
+    - SDWebImageFLPlugin
 
 SPEC CHECKSUMS:
+  FLAnimatedImage: 4a0b56255d9b05f18b6dd7ee06871be5d3b89e31
   Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
   SDWebImage: b69257f4ab14e9b6a2ef53e910fdf914d8f757c1
+  SDWebImageFLPlugin: 6c2295fb1242d44467c6c87dc5db6b0a13228fd8
 
-PODFILE CHECKSUM: 3e505785956a8191ce3fe606f0afa0d01dcd3b02
+PODFILE CHECKSUM: c7d88318739ac72effa482929780ed249cb8f2d5
 
 COCOAPODS: 1.10.0

@@ -16,5 +16,5 @@ target '图片的处理探究' do
   end
   pod 'Masonry', '~> 1.1.0'
   pod 'SDWebImage'
-
+  pod 'SDWebImageFLPlugin'
 end
