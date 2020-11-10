@@ -19,6 +19,7 @@
 		B6817CA22559203B004CFE1B /* 月儿.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B6817CA12559203B004CFE1B /* 月儿.jpg */; };
 		B6817CA825592A15004CFE1B /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B6817CA725592A15004CFE1B /* SecondViewController.m */; };
 		B6817CAF255A3A9C004CFE1B /* ThirdViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B6817CAE255A3A9C004CFE1B /* ThirdViewController.m */; };
+		B6817CB4255A444C004CFE1B /* 少司命.gif in Resources */ = {isa = PBXBuildFile; fileRef = B6817CB3255A444B004CFE1B /* 少司命.gif */; };
 		DCB10D150209446C3BEC10D4 /* libPods-图片的处理探究Tests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 2F847964FDF116ED3A0A95AD /* libPods-图片的处理探究Tests.a */; };
 		E56B1589BA97EAC6AE80C252 /* libPods-图片的处理探究-图片的处理探究UITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D1F409B166FE1880B6D7B20A /* libPods-图片的处理探究-图片的处理探究UITests.a */; };
 /* End PBXBuildFile section */
@@ -70,6 +71,7 @@
 		B6817CA725592A15004CFE1B /* SecondViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
 		B6817CAD255A3A9C004CFE1B /* ThirdViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ThirdViewController.h; sourceTree = "<group>"; };
 		B6817CAE255A3A9C004CFE1B /* ThirdViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ThirdViewController.m; sourceTree = "<group>"; };
+		B6817CB3255A444B004CFE1B /* 少司命.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = "少司命.gif"; sourceTree = "<group>"; };
 		D1F409B166FE1880B6D7B20A /* libPods-图片的处理探究-图片的处理探究UITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-图片的处理探究-图片的处理探究UITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		FF5F5A6EA0168F327931F979 /* Pods-图片的处理探究.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-图片的处理探究.debug.xcconfig"; path = "Target Support Files/Pods-图片的处理探究/Pods-图片的处理探究.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -151,6 +153,7 @@
 			isa = PBXGroup;
 			children = (
 				B6817CA12559203B004CFE1B /* 月儿.jpg */,
+				B6817CB3255A444B004CFE1B /* 少司命.gif */,
 				B6817C4A2558E669004CFE1B /* AppDelegate.h */,
 				B6817C4B2558E669004CFE1B /* AppDelegate.m */,
 				B6817C502558E669004CFE1B /* ViewController.h */,
@@ -293,6 +296,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				B6817C5A2558E66C004CFE1B /* LaunchScreen.storyboard in Resources */,
+				B6817CB4255A444C004CFE1B /* 少司命.gif in Resources */,
 				B6817C572558E66C004CFE1B /* Assets.xcassets in Resources */,
 				B6817CA22559203B004CFE1B /* 月儿.jpg in Resources */,
 			);
