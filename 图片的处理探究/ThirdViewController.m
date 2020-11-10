@@ -36,6 +36,11 @@
     }
     _animatedImageView = [[SDAnimatedImageView alloc] initWithFrame:CGRectMake(0, 0, 300, 200)];
     _animatedImageView.image = self.animatedImage;
+    //自定义gif播放的次数
+    _animatedImageView.shouldCustomLoopCount = YES;
+    _animatedImageView.animationRepeatCount = 3;
+    //加速播放
+    _animatedImageView.playbackRate = 2.0f;
     return _animatedImageView;
 }
 
