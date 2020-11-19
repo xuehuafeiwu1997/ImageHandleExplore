@@ -12,6 +12,7 @@
 		B6059FB22563CBEC0025DD89 /* EighthViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B6059FB12563CBEC0025DD89 /* EighthViewController.m */; };
 		B6131BD1255B947200F4DB20 /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B6131BD0255B947200F4DB20 /* MainViewController.m */; };
 		B6131BE0255B980800F4DB20 /* SixthViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B6131BDF255B980800F4DB20 /* SixthViewController.m */; };
+		B65826DD256662C900C3EB9C /* NinthViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B65826DC256662C900C3EB9C /* NinthViewController.m */; };
 		B6817C4C2558E669004CFE1B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B6817C4B2558E669004CFE1B /* AppDelegate.m */; };
 		B6817C522558E669004CFE1B /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B6817C512558E669004CFE1B /* ViewController.m */; };
 		B6817C572558E66C004CFE1B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B6817C562558E66C004CFE1B /* Assets.xcassets */; };
@@ -63,6 +64,8 @@
 		B6131BD0255B947200F4DB20 /* MainViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
 		B6131BDE255B980800F4DB20 /* SixthViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SixthViewController.h; sourceTree = "<group>"; };
 		B6131BDF255B980800F4DB20 /* SixthViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SixthViewController.m; sourceTree = "<group>"; };
+		B65826DB256662C900C3EB9C /* NinthViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NinthViewController.h; sourceTree = "<group>"; };
+		B65826DC256662C900C3EB9C /* NinthViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NinthViewController.m; sourceTree = "<group>"; };
 		B6817C472558E669004CFE1B /* 图片的处理探究.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "图片的处理探究.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B6817C4A2558E669004CFE1B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		B6817C4B2558E669004CFE1B /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -194,6 +197,8 @@
 				B605557D255C016700EFACE3 /* SeventhViewController.m */,
 				B6059FB02563CBEC0025DD89 /* EighthViewController.h */,
 				B6059FB12563CBEC0025DD89 /* EighthViewController.m */,
+				B65826DB256662C900C3EB9C /* NinthViewController.h */,
+				B65826DC256662C900C3EB9C /* NinthViewController.m */,
 				B6817C562558E66C004CFE1B /* Assets.xcassets */,
 				B6817C582558E66C004CFE1B /* LaunchScreen.storyboard */,
 				B6817C5B2558E66C004CFE1B /* Info.plist */,
@@ -470,6 +475,7 @@
 				B6059FB22563CBEC0025DD89 /* EighthViewController.m in Sources */,
 				B6817C9D2558ED31004CFE1B /* FirstViewController.m in Sources */,
 				B6131BE0255B980800F4DB20 /* SixthViewController.m in Sources */,
+				B65826DD256662C900C3EB9C /* NinthViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
