@@ -31,6 +31,10 @@
 	<string>LaunchScreen</string>
 	<key>NSPhotoLibraryAddUsageDescription</key>
 	<string>&quot;该app想要访问你的照片库，是否允许我们的请求&quot;</string>
+	<key>NSMicrophoneUsageDescription</key>
+	<string>@&quot;该app想要访问你的爱克风，是否允许？&quot;</string>
+	<key>NSCameraUsageDescription</key>
+	<string>该app想要调用你的摄像头，是否允许？</string>
 	<key>UIRequiredDeviceCapabilities</key>
 	<array>
 		<string>armv7</string>

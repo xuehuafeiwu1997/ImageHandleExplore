@@ -3,11 +3,13 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
 		11334E8F6BCC5309EB7A3172 /* libPods-图片的处理探究.a in Frameworks */ = {isa = PBXBuildFile; fileRef = AB749F72B6A49F860B17DE55 /* libPods-图片的处理探究.a */; };
+		B605557E255C016700EFACE3 /* SeventhViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B605557D255C016700EFACE3 /* SeventhViewController.m */; };
+		B6059FB22563CBEC0025DD89 /* EighthViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B6059FB12563CBEC0025DD89 /* EighthViewController.m */; };
 		B6131BD1255B947200F4DB20 /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B6131BD0255B947200F4DB20 /* MainViewController.m */; };
 		B6131BE0255B980800F4DB20 /* SixthViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B6131BDF255B980800F4DB20 /* SixthViewController.m */; };
 		B6817C4C2558E669004CFE1B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B6817C4B2558E669004CFE1B /* AppDelegate.m */; };
@@ -53,6 +55,10 @@
 		65CFACF892B0D120FB2814C8 /* Pods-图片的处理探究-图片的处理探究UITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-图片的处理探究-图片的处理探究UITests.release.xcconfig"; path = "Target Support Files/Pods-图片的处理探究-图片的处理探究UITests/Pods-图片的处理探究-图片的处理探究UITests.release.xcconfig"; sourceTree = "<group>"; };
 		AB749F72B6A49F860B17DE55 /* libPods-图片的处理探究.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-图片的处理探究.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B5F493F6133C53964A53BF31 /* Pods-图片的处理探究Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-图片的处理探究Tests.release.xcconfig"; path = "Target Support Files/Pods-图片的处理探究Tests/Pods-图片的处理探究Tests.release.xcconfig"; sourceTree = "<group>"; };
+		B605557C255C016700EFACE3 /* SeventhViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SeventhViewController.h; sourceTree = "<group>"; };
+		B605557D255C016700EFACE3 /* SeventhViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SeventhViewController.m; sourceTree = "<group>"; };
+		B6059FB02563CBEC0025DD89 /* EighthViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EighthViewController.h; sourceTree = "<group>"; };
+		B6059FB12563CBEC0025DD89 /* EighthViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EighthViewController.m; sourceTree = "<group>"; };
 		B6131BCF255B947200F4DB20 /* MainViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
 		B6131BD0255B947200F4DB20 /* MainViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
 		B6131BDE255B980800F4DB20 /* SixthViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SixthViewController.h; sourceTree = "<group>"; };
@@ -184,6 +190,10 @@
 				B6817CD2255A99C7004CFE1B /* FifthViewController.m */,
 				B6131BDE255B980800F4DB20 /* SixthViewController.h */,
 				B6131BDF255B980800F4DB20 /* SixthViewController.m */,
+				B605557C255C016700EFACE3 /* SeventhViewController.h */,
+				B605557D255C016700EFACE3 /* SeventhViewController.m */,
+				B6059FB02563CBEC0025DD89 /* EighthViewController.h */,
+				B6059FB12563CBEC0025DD89 /* EighthViewController.m */,
 				B6817C562558E66C004CFE1B /* Assets.xcassets */,
 				B6817C582558E66C004CFE1B /* LaunchScreen.storyboard */,
 				B6817C5B2558E66C004CFE1B /* Info.plist */,
@@ -221,6 +231,7 @@
 				B6817C432558E669004CFE1B /* Sources */,
 				B6817C442558E669004CFE1B /* Frameworks */,
 				B6817C452558E669004CFE1B /* Resources */,
+				B187DB8BA0C0161BEB5E667F /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -258,6 +269,7 @@
 				B6817C692558E66C004CFE1B /* Sources */,
 				B6817C6A2558E66C004CFE1B /* Frameworks */,
 				B6817C6B2558E66C004CFE1B /* Resources */,
+				C4FB62D6128D5E352F9A03BA /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -361,6 +373,23 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
+		B187DB8BA0C0161BEB5E667F /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-图片的处理探究/Pods-图片的处理探究-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-图片的处理探究/Pods-图片的处理探究-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-图片的处理探究/Pods-图片的处理探究-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 		BF9F71CF25F9F11DD63D3846 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -381,6 +410,23 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C4FB62D6128D5E352F9A03BA /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-图片的处理探究-图片的处理探究UITests/Pods-图片的处理探究-图片的处理探究UITests-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-图片的处理探究-图片的处理探究UITests/Pods-图片的处理探究-图片的处理探究UITests-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-图片的处理探究-图片的处理探究UITests/Pods-图片的处理探究-图片的处理探究UITests-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		D383ED5AE9D1D3B20AFE19B3 /* [CP] Check Pods Manifest.lock */ = {
@@ -418,8 +464,10 @@
 				B6817CAF255A3A9C004CFE1B /* ThirdViewController.m in Sources */,
 				B6131BD1255B947200F4DB20 /* MainViewController.m in Sources */,
 				B6817C4C2558E669004CFE1B /* AppDelegate.m in Sources */,
+				B605557E255C016700EFACE3 /* SeventhViewController.m in Sources */,
 				B6817C5D2558E66C004CFE1B /* main.m in Sources */,
 				B6817CBA255A7168004CFE1B /* FourthViewController.m in Sources */,
+				B6059FB22563CBEC0025DD89 /* EighthViewController.m in Sources */,
 				B6817C9D2558ED31004CFE1B /* FirstViewController.m in Sources */,
 				B6131BE0255B980800F4DB20 /* SixthViewController.m in Sources */,
 			);
