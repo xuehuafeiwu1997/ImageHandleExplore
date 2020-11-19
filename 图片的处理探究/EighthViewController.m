@@ -176,6 +176,8 @@
     [stillImageSource processImage];
     UIImage *currentFrame = [sepiaFilter imageFromCurrentFramebuffer];
     self.imageView.image = currentFrame;
+    //这样写，在点击完褐色滤镜按钮后，再点击其他滤镜，会实现相应的滤镜组合，这样写并不方便，在NinthViewController中会有相应的实现
+    self.inputImage = currentFrame;
 }
 
 - (void)startBrightnessFilter {
