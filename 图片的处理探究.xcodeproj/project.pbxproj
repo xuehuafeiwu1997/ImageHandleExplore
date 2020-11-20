@@ -13,6 +13,7 @@
 		B6131BD1255B947200F4DB20 /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B6131BD0255B947200F4DB20 /* MainViewController.m */; };
 		B6131BE0255B980800F4DB20 /* SixthViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B6131BDF255B980800F4DB20 /* SixthViewController.m */; };
 		B65826DD256662C900C3EB9C /* NinthViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B65826DC256662C900C3EB9C /* NinthViewController.m */; };
+		B65826E325666F0000C3EB9C /* TenthViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B65826E225666F0000C3EB9C /* TenthViewController.m */; };
 		B6817C4C2558E669004CFE1B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B6817C4B2558E669004CFE1B /* AppDelegate.m */; };
 		B6817C522558E669004CFE1B /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B6817C512558E669004CFE1B /* ViewController.m */; };
 		B6817C572558E66C004CFE1B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B6817C562558E66C004CFE1B /* Assets.xcassets */; };
@@ -27,6 +28,7 @@
 		B6817CB4255A444C004CFE1B /* 少司命.gif in Resources */ = {isa = PBXBuildFile; fileRef = B6817CB3255A444B004CFE1B /* 少司命.gif */; };
 		B6817CBA255A7168004CFE1B /* FourthViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B6817CB9255A7168004CFE1B /* FourthViewController.m */; };
 		B6817CD3255A99C7004CFE1B /* FifthViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B6817CD2255A99C7004CFE1B /* FifthViewController.m */; };
+		B6FC405725676B260093BB6D /* 天明.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B6FC405625676B250093BB6D /* 天明.jpg */; };
 		DCB10D150209446C3BEC10D4 /* libPods-图片的处理探究Tests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 2F847964FDF116ED3A0A95AD /* libPods-图片的处理探究Tests.a */; };
 		E56B1589BA97EAC6AE80C252 /* libPods-图片的处理探究-图片的处理探究UITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D1F409B166FE1880B6D7B20A /* libPods-图片的处理探究-图片的处理探究UITests.a */; };
 /* End PBXBuildFile section */
@@ -66,6 +68,8 @@
 		B6131BDF255B980800F4DB20 /* SixthViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SixthViewController.m; sourceTree = "<group>"; };
 		B65826DB256662C900C3EB9C /* NinthViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NinthViewController.h; sourceTree = "<group>"; };
 		B65826DC256662C900C3EB9C /* NinthViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NinthViewController.m; sourceTree = "<group>"; };
+		B65826E125666F0000C3EB9C /* TenthViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TenthViewController.h; sourceTree = "<group>"; };
+		B65826E225666F0000C3EB9C /* TenthViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TenthViewController.m; sourceTree = "<group>"; };
 		B6817C472558E669004CFE1B /* 图片的处理探究.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "图片的处理探究.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B6817C4A2558E669004CFE1B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		B6817C4B2558E669004CFE1B /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -93,6 +97,7 @@
 		B6817CB9255A7168004CFE1B /* FourthViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FourthViewController.m; sourceTree = "<group>"; };
 		B6817CD1255A99C7004CFE1B /* FifthViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FifthViewController.h; sourceTree = "<group>"; };
 		B6817CD2255A99C7004CFE1B /* FifthViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FifthViewController.m; sourceTree = "<group>"; };
+		B6FC405625676B250093BB6D /* 天明.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "天明.jpg"; sourceTree = "<group>"; };
 		D1F409B166FE1880B6D7B20A /* libPods-图片的处理探究-图片的处理探究UITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-图片的处理探究-图片的处理探究UITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		FF5F5A6EA0168F327931F979 /* Pods-图片的处理探究.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-图片的处理探究.debug.xcconfig"; path = "Target Support Files/Pods-图片的处理探究/Pods-图片的处理探究.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -175,6 +180,7 @@
 			children = (
 				B6817CA12559203B004CFE1B /* 月儿.jpg */,
 				B6817CB3255A444B004CFE1B /* 少司命.gif */,
+				B6FC405625676B250093BB6D /* 天明.jpg */,
 				B6817C4A2558E669004CFE1B /* AppDelegate.h */,
 				B6817C4B2558E669004CFE1B /* AppDelegate.m */,
 				B6131BCF255B947200F4DB20 /* MainViewController.h */,
@@ -199,6 +205,8 @@
 				B6059FB12563CBEC0025DD89 /* EighthViewController.m */,
 				B65826DB256662C900C3EB9C /* NinthViewController.h */,
 				B65826DC256662C900C3EB9C /* NinthViewController.m */,
+				B65826E125666F0000C3EB9C /* TenthViewController.h */,
+				B65826E225666F0000C3EB9C /* TenthViewController.m */,
 				B6817C562558E66C004CFE1B /* Assets.xcassets */,
 				B6817C582558E66C004CFE1B /* LaunchScreen.storyboard */,
 				B6817C5B2558E66C004CFE1B /* Info.plist */,
@@ -332,6 +340,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B6FC405725676B260093BB6D /* 天明.jpg in Resources */,
 				B6817C5A2558E66C004CFE1B /* LaunchScreen.storyboard in Resources */,
 				B6817CB4255A444C004CFE1B /* 少司命.gif in Resources */,
 				B6817C572558E66C004CFE1B /* Assets.xcassets in Resources */,
@@ -471,6 +480,7 @@
 				B6817C4C2558E669004CFE1B /* AppDelegate.m in Sources */,
 				B605557E255C016700EFACE3 /* SeventhViewController.m in Sources */,
 				B6817C5D2558E66C004CFE1B /* main.m in Sources */,
+				B65826E325666F0000C3EB9C /* TenthViewController.m in Sources */,
 				B6817CBA255A7168004CFE1B /* FourthViewController.m in Sources */,
 				B6059FB22563CBEC0025DD89 /* EighthViewController.m in Sources */,
 				B6817C9D2558ED31004CFE1B /* FirstViewController.m in Sources */,
