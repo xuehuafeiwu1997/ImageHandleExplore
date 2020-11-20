@@ -12,7 +12,6 @@
 
 @property (nonatomic, strong) UIImageView *imageView;
 @property (nonatomic, strong) UIButton *customFilterButton;
-@property (nonatomic, strong) UIButton *replaceBgColorButton;
 @property (nonatomic, strong) CIImage *originalCIImage;
 
 @end
@@ -101,16 +100,6 @@
     [_customFilterButton setTitleColor:[UIColor blackColor] forState:UIControlStateNormal];
     [_customFilterButton addTarget:self action:@selector(startCustonFilter) forControlEvents:UIControlEventTouchUpInside];
     return _customFilterButton;
-}
-
-- (UIButton *)replaceBgColorButton {
-    if (_replaceBgColorButton) {
-        return _replaceBgColorButton;
-    }
-    _replaceBgColorButton = [[UIButton alloc] initWithFrame:CGRectMake(0, 0, 100, 50)];
-    [_replaceBgColorButton setTitleColor:[UIColor blackColor] forState:UIControlStateNormal];
-    [_replaceBgColorButton setTitle:@"开启替换背景颜色" forState:UIControlStateNormal];
-    return _replaceBgColorButton;
 }
 
 @end
